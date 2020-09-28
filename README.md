@@ -5,7 +5,7 @@
 
 ## contain
 - data-lake
-  - minIO
+  - minIO: https://github.com/minio/charts
   - arrow
 - feature store
 - BI
