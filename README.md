@@ -13,9 +13,13 @@ helm create avalon
 - data-lake
   - minIO: https://github.com/minio/charts
   - arrow
+  - cassandra
 - feature store
+  - kubeflow
 - BI
+  - metabase
 - Apache Beam
+- Flink
 
 ## Reference
 https://www.featurestore.org
