@@ -5,7 +5,7 @@ helm create avalon
 ```
 
 ## requirement
-- microk8s
+- minikube
 - helm
 
 ## contain
@@ -25,4 +25,7 @@ helm create avalon
 https://www.featurestore.org
 https://github.com/confluentinc/cp-helm-charts
 https://github.com/minio/charts
+https://www.kubeflow.org/docs/started/workstation/minikube-linux/
+https://minikube.sigs.k8s.io/docs/
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
