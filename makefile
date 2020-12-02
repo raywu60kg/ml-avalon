@@ -14,6 +14,6 @@ minikube-up:
 	minikube start --cpus 6 --memory 12288 --disk-size=120g --extra-config=apiserver.service-account-issuer=api --extra-config=apiserver.service-account-signing-key-file=/var/lib/minikube/certs/apiserver.key --extra-config=apiserver.service-account-api-audiences=api --kubernetes-version=v1.14.10
 
 kubeflow-up:
-	kfctl apply -V -f kubeflow/kfctl_k8s_istio.v1.1.0.yaml
+	kfctl apply -V -f kubeflow/kfctl_k8s_istio.v1.0.0.yaml
 kubeflow-down:
-	kfctl delete -f kubeflow/kfctl_k8s_istio.v1.1.0.yaml
+	kfctl delete -f kubeflow/kfctl_k8s_istio.v1.0.0.yaml

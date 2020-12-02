@@ -15,7 +15,7 @@ helm create avalon
   - arrow
   - cassandra
 - feature store
-  - kubeflow
+  - kubeflow(kfctl_v1.0-0-g94c35cf_linux.tar.gz)
 - BI
   - metabase
 - Apache Beam
