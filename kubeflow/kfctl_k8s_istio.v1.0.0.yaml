@@ -351,5 +351,5 @@ spec:
   version: v1.0.0
 status:
   reposCache:
-  - localPath: '"/home/wu/projects/ml-avalon/kubeflow/.cache/manifests/manifests-1.0.0"'
+  - localPath: '"/home/raywu/projects/ml-avalon/kubeflow/.cache/manifests/manifests-1.0.0"'
     name: manifests
