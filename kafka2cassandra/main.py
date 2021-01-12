@@ -9,7 +9,7 @@ spark = SparkSession \
     .getOrCreate()
 
 # subscribe kafka
-val df = spark
+df = spark
   .readStream
   .format("kafka")
   .option("kafka.bootstrap.servers", "host1:port1,host2:port2")

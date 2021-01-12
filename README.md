@@ -1,8 +1,4 @@
 # ml-avalon
-create by 
-```
-helm create avalon
-```
 
 ## requirement
 - minikube
@@ -11,8 +7,6 @@ helm create avalon
 ## contain
 - kafka: https://github.com/confluentinc/cp-helm-charts
 - data-lake
-  - minIO: https://github.com/minio/charts
-  - arrow
   - cassandra
 - feature store
   - kubeflow(kfctl_v1.0-0-g94c35cf_linux.tar.gz)
